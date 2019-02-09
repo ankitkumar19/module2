@@ -5,17 +5,18 @@
 @media(min-width: 992px)
 {
 	p{
-		width:30.00%;
-		height: 32.00%;
+		width:30%;
+		height: 50%;
 		border:1px solid black;
-		margin-left: 10px;
-		float:left;
-		padding: 10px;
+		margin-left: 50px;
+		float :left;
+		padding:10px;
+		text-align: center;
 	}
 }
 @media(min-width:768px) and (max-width: 991px)
 {
-	#p1{
+	p{
 		width:50%;
 		height: 50%;
 		border:1px solid black;
@@ -24,7 +25,7 @@
 		padding:10px;
 		text-align: center;
 	}
-	#p2{
+	/*#p2{
 		width:50%;
 		height: 50%;
 		border:1px solid black;
@@ -32,7 +33,7 @@
 		float :left;
 		padding:10px;
 		text-align: center;
-	}
+	}*/
 	#p3{
 		width:100%;
 		border:1px solid black;
